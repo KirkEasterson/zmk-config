@@ -30,25 +30,25 @@
                                   &kp ESC   &kp LSHIFT   &mo 1       &mo 2   &kp RCTRL   &kp SPC
                         >;
                 };
-/**/
-/*                 navigation { */
-/*                         display-name = "Navigation"; */
-/*                         bindings = < */
-/* //    ╭───┬─────────────┬─────────────┬─────────────┬─────────────┬───────────╮           ╭────────────┬───────────┬───────────┬───────────────┬──────────┬───╮ */
-/* //    │   │   &kp TAB   │             │             │             │ &kp PSCRN │           │ &kp K_BACK │ &kp BSPC  │  &kp DEL  │ &kp K_FORWARD │ &kp CAPS │   │ */
-/* //    ├───┼─────────────┼─────────────┼─────────────┼─────────────┼───────────┤           ├────────────┼───────────┼───────────┼───────────────┼──────────┼───┤ */
-/* //    │   │  &sk LCTRL  │  &sk LALT   │  &sk LGUI   │ &sk LSHIFT  │ &sk RALT  │           │  &kp LEFT  │ &kp DOWN  │  &kp UP   │   &kp RIGHT   │          │   │ */
-/* //    ├───┼─────────────┼─────────────┼─────────────┼─────────────┼───────────┤           ├────────────┼───────────┼───────────┼───────────────┼──────────┼───┤ */
-/* //    │   │ &kp LCMD(Z) │ &kp LCMD(X) │ &kp LCMD(C) │ &kp LCMD(V) │           │           │  &kp HOME  │ &kp PG_DN │ &kp PG_UP │    &kp END    │          │   │ */
-/* //    ╰───┴─────────────┴─────────────┴─────────────┼─────────────┼───────────┼───╮   ╭───┼────────────┼───────────┼───────────┴───────────────┴──────────┴───╯ */
-/* //                                                  │             │           │ … │   │ … │ &kp ENTER  │  &kp SPC  │ */
-/* //                                                  ╰─────────────┴───────────┴───╯   ╰───┴────────────┴───────────╯ */
-/*   &none   &kp TAB       &none         &none         &none         &kp PSCRN                         &kp K_BACK   &kp BSPC    &kp DEL     &kp K_FORWARD   &kp CAPS   &none */
-/*   &none   &sk LCTRL     &sk LALT      &sk LGUI      &sk LSHIFT    &sk RALT                          &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT       &none      &none */
-/*   &none   &kp LCMD(Z)   &kp LCMD(X)   &kp LCMD(C)   &kp LCMD(V)   &none                             &kp HOME     &kp PG_DN   &kp PG_UP   &kp END         &none      &none */
-/*                                                     &none         &none       &trans       &trans   &kp ENTER    &kp SPC */
-/*                         >; */
-/*                 }; */
+
+                navigation {
+                        display-name = "Navigation";
+                        bindings = <
+//    ╭───┬─────────────┬─────────────┬─────────────┬─────────────┬───────────╮           ╭────────────┬───────────┬───────────┬───────────────┬──────────┬───╮
+//    │   │   &kp TAB   │             │             │             │ &kp PSCRN │           │ &kp K_BACK │ &kp BSPC  │  &kp DEL  │ &kp K_FORWARD │ &kp CAPS │   │
+//    ├───┼─────────────┼─────────────┼─────────────┼─────────────┼───────────┤           ├────────────┼───────────┼───────────┼───────────────┼──────────┼───┤
+//    │   │  &sk LCTRL  │  &sk LALT   │  &sk LGUI   │ &sk LSHIFT  │ &sk RALT  │           │  &kp LEFT  │ &kp DOWN  │  &kp UP   │   &kp RIGHT   │          │   │
+//    ├───┼─────────────┼─────────────┼─────────────┼─────────────┼───────────┤           ├────────────┼───────────┼───────────┼───────────────┼──────────┼───┤
+//    │   │ &kp LCMD(Z) │ &kp LCMD(X) │ &kp LCMD(C) │ &kp LCMD(V) │           │           │  &kp HOME  │ &kp PG_DN │ &kp PG_UP │    &kp END    │          │   │
+//    ╰───┴─────────────┴─────────────┴─────────────┼─────────────┼───────────┼───╮   ╭───┼────────────┼───────────┼───────────┴───────────────┴──────────┴───╯
+//                                                  │             │           │ … │   │ … │ &kp ENTER  │  &kp SPC  │
+//                                                  ╰─────────────┴───────────┴───╯   ╰───┴────────────┴───────────╯
+  &none   &kp TAB       &none         &none         &none         &kp PSCRN                         &kp K_BACK   &kp BSPC    &kp DEL     &kp K_FORWARD   &kp CAPS   &none
+  &none   &sk LCTRL     &sk LALT      &sk LGUI      &sk LSHIFT    &sk RALT                          &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT       &none      &none
+  &none   &kp LCMD(Z)   &kp LCMD(X)   &kp LCMD(C)   &kp LCMD(V)   &none                             &kp HOME     &kp PG_DN   &kp PG_UP   &kp END         &none      &none
+                                                    &none         &none       &trans       &trans   &kp ENTER    &kp SPC
+                        >;
+                };
 /**/
 /*                 symbols { */
 /*                         display-name = "Symbols"; */
