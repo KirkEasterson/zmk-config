@@ -46,7 +46,7 @@
   &none   &kp TAB       &none         &none         &none         &kp PSCRN                        &kp K_BACK   &kp BSPC    &kp DEL     &kp K_FORWARD   &kp CAPS   &none
   &none   &sk LCTRL     &sk LALT      &sk LGUI      &sk LSHIFT    &sk RALT                         &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT       &none      &none
   &none   &kp LCMD(Z)   &kp LCMD(X)   &kp LCMD(C)   &kp LCMD(V)   &none                            &kp HOME     &kp PG_DN   &kp PG_UP   &kp END         &none      &none
-                                                    &none         &none       &trans       &mo 3   &ENTER       &SPC
+                                                    &none         &none       &trans       &mo 3   &kp ENTER       &kp SPC
                         >;
                 };
 
