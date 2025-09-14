@@ -50,24 +50,24 @@
                         >;
                 };
 
-/*                 symbols { */
-/*                         display-name = "Symbols"; */
-/*                         bindings = < */
-/* //    ┌───┬────────────┬────────────┬────────────┬────────────┬────────────┐               ┌────────────┬────────────┬────────────┬────────────┬────────────┬───┐ */
-/* //    │   │ &kp LS(N1) │ &kp LS(N2) │ &kp LS(N3) │ &kp LS(N4) │ &kp LS(N5) │               │ &kp LS(N6) │ &kp LS(N7) │ &kp LS(N8) │ &kp LS(N9) │ &kp LS(N0) │   │ */
-/* //    ├───┼────────────┼────────────┼────────────┼────────────┼────────────┤               ├────────────┼────────────┼────────────┼────────────┼────────────┼───┤ */
-/* //    │   │   &kp LT   │  &kp LBKT  │  &kp LBRC  │   &LPAR    │            │               │ &kp MINUS  │  &kp BSLH  │ &kp EQUAL  │ &kp GRAVE  │ &kp COLON  │   │ */
-/* //    ├───┼────────────┼────────────┼────────────┼────────────┼────────────┤               ├────────────┼────────────┼────────────┼────────────┼────────────┼───┤ */
-/* //    │   │   &kp GT   │  &kp RBKT  │  &kp RBRC  │   &RPAR    │            │               │ &kp UNDER  │  &kp PIPE  │  &kp PLUS  │ &kp TILDE  │  &kp SEMI  │   │ */
-/* //    └───┴────────────┴────────────┴────────────┼────────────┼────────────┼───────┐   ┌───┼────────────┼────────────┼────────────┴────────────┴────────────┴───┘ */
-/* //                                               │            │            │ &mo 3 │   │ … │            │            │                                            */
-/* //                                               └────────────┴────────────┴───────┘   └───┴────────────┴────────────┘                                            */
-/*   &none   &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp LS(N4)   &kp LS(N5)                        &kp LS(N6)   &kp LS(N7)   &kp LS(N8)   &kp LS(N9)   &kp LS(N0)   &none */
-/*   &none   &kp LT       &kp LBKT     &kp LBRC     &LPAR        &none                             &kp MINUS    &kp BSLH     &kp EQUAL    &kp GRAVE    &kp COLON    &none */
-/*   &none   &kp GT       &kp RBKT     &kp RBRC     &RPAR        &none                             &kp UNDER    &kp PIPE     &kp PLUS     &kp TILDE    &kp SEMI     &none */
-/*                                                  &none        &none        &mo 3       &trans   &none        &none                                                     */
-/*                         >; */
-/*                 }; */
+                symbols {
+                        display-name = "Symbols";
+                        bindings = <
+//    ┌───┬────────────┬────────────┬────────────┬────────────┬────────────┐               ┌────────────┬────────────┬────────────┬────────────┬────────────┬───┐
+//    │   │ &kp LS(N1) │ &kp LS(N2) │ &kp LS(N3) │ &kp LS(N4) │ &kp LS(N5) │               │ &kp LS(N6) │ &kp LS(N7) │ &kp LS(N8) │ &kp LS(N9) │ &kp LS(N0) │   │
+//    ├───┼────────────┼────────────┼────────────┼────────────┼────────────┤               ├────────────┼────────────┼────────────┼────────────┼────────────┼───┤
+//    │   │   &kp LT   │  &kp LBKT  │  &kp LBRC  │   &LPAR    │            │               │ &kp MINUS  │  &kp BSLH  │ &kp EQUAL  │ &kp GRAVE  │ &kp COLON  │   │
+//    ├───┼────────────┼────────────┼────────────┼────────────┼────────────┤               ├────────────┼────────────┼────────────┼────────────┼────────────┼───┤
+//    │   │   &kp GT   │  &kp RBKT  │  &kp RBRC  │   &RPAR    │            │               │ &kp UNDER  │  &kp PIPE  │  &kp PLUS  │ &kp TILDE  │  &kp SEMI  │   │
+//    └───┴────────────┴────────────┴────────────┼────────────┼────────────┼───────┐   ┌───┼────────────┼────────────┼────────────┴────────────┴────────────┴───┘
+//                                               │            │            │ &mo 3 │   │ … │            │            │
+//                                               └────────────┴────────────┴───────┘   └───┴────────────┴────────────┘
+  &none   &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp LS(N4)   &kp LS(N5)                        &kp LS(N6)   &kp LS(N7)   &kp LS(N8)   &kp LS(N9)   &kp LS(N0)   &none
+  &none   &kp LT       &kp LBKT     &kp LBRC     &LPAR        &none                             &kp MINUS    &kp BSLH     &kp EQUAL    &kp GRAVE    &kp COLON    &none
+  &none   &kp GT       &kp RBKT     &kp RBRC     &RPAR        &none                             &kp UNDER    &kp PIPE     &kp PLUS     &kp TILDE    &kp SEMI     &none
+                                                 &none        &none        &mo 3       &trans   &none        &none
+                        >;
+                };
 
                 numbers {
                         display-name = "Numbers";
@@ -91,18 +91,18 @@
                 function_media {
                         display-name = "Function and media keys";
                         bindings = <
-//    ┌───┬─────────┬────────┬────────┬────────┬───┐           ┌────────┬──────────────┬────────────────┬──────────────┬─────┬───┐
-//    │   │ &kp F12 │ &kp F7 │ &kp F8 │ &kp F9 │   │           │        │  &kp C_PREV  │   &kp C_PLAY   │  &kp C_NEXT  │     │   │
-//    ├───┼─────────┼────────┼────────┼────────┼───┤           ├────────┼──────────────┼────────────────┼──────────────┼─────┼───┤
-//    │   │ &kp F11 │ &kp F4 │ &kp F5 │ &kp F6 │   │           │ &kp RA │    &kp RS    │     &kp RG     │    &kp LA    │ &RC │   │
-//    ├───┼─────────┼────────┼────────┼────────┼───┤           ├────────┼──────────────┼────────────────┼──────────────┼─────┼───┤
-//    │   │ &kp F10 │ &kp F1 │ &kp F2 │ &kp F3 │   │           │        │ &kp C_VOL_UP │ &kp C_VOL_MUTE │ &kp C_VOL_DN │     │   │
-//    └───┴─────────┴────────┴────────┼────────┼───┼───┐   ┌───┼────────┼──────────────┼────────────────┴──────────────┴─────┴───┘
+//    ┌───┬─────────┬────────┬────────┬────────┬───┐           ┌────────┬──────────────┬────────────────┬──────────────┬────────┬───┐
+//    │   │ &kp F12 │ &kp F7 │ &kp F8 │ &kp F9 │   │           │        │  &kp C_PREV  │   &kp C_PLAY   │  &kp C_NEXT  │        │   │
+//    ├───┼─────────┼────────┼────────┼────────┼───┤           ├────────┼──────────────┼────────────────┼──────────────┼────────┼───┤
+//    │   │ &kp F11 │ &kp F4 │ &kp F5 │ &kp F6 │   │           │ &kp RA │    &kp RS    │     &kp RG     │    &kp LA    │ &kp RC │   │
+//    ├───┼─────────┼────────┼────────┼────────┼───┤           ├────────┼──────────────┼────────────────┼──────────────┼────────┼───┤
+//    │   │ &kp F10 │ &kp F1 │ &kp F2 │ &kp F3 │   │           │        │ &kp C_VOL_UP │ &kp C_VOL_MUTE │ &kp C_VOL_DN │        │   │
+//    └───┴─────────┴────────┴────────┼────────┼───┼───┐   ┌───┼────────┼──────────────┼────────────────┴──────────────┴────────┴───┘
 //                                    │        │ … │   │   │   │   …    │              │
 //                                    └────────┴───┴───┘   └───┴────────┴──────────────┘
-  &none   &kp F12   &kp F7   &kp F8   &kp F9   &none                        &none    &kp C_PREV     &kp C_PLAY       &kp C_NEXT     &none   &none
-  &none   &kp F11   &kp F4   &kp F5   &kp F6   &none                        &kp RA   &kp RS         &kp RG           &kp LA         &RC     &none
-  &none   &kp F10   &kp F1   &kp F2   &kp F3   &none                        &none    &kp C_VOL_UP   &kp C_VOL_MUTE   &kp C_VOL_DN   &none   &none
+  &none   &kp F12   &kp F7   &kp F8   &kp F9   &none                        &none    &kp C_PREV     &kp C_PLAY       &kp C_NEXT     &none    &none
+  &none   &kp F11   &kp F4   &kp F5   &kp F6   &none                        &kp RA   &kp RS         &kp RG           &kp LA         &kp RC   &none
+  &none   &kp F10   &kp F1   &kp F2   &kp F3   &none                        &none    &kp C_VOL_UP   &kp C_VOL_MUTE   &kp C_VOL_DN   &none    &none
                                       &none    &trans   &none       &none   &trans   &none
                         >;
                 };
