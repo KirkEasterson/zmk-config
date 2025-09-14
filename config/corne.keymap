@@ -37,14 +37,14 @@
 //    ╭───┬───────────┬───────────┬───────────┬────────────┬───────────╮           ╭────────────┬───────────┬───────────┬───────────────┬──────────┬───╮
 //    │   │  &kp TAB  │           │           │            │ &kp PSCRN │           │ &kp K_BACK │ &kp BSPC  │  &kp DEL  │ &kp K_FORWARD │ &kp CAPS │   │
 //    ├───┼───────────┼───────────┼───────────┼────────────┼───────────┤           ├────────────┼───────────┼───────────┼───────────────┼──────────┼───┤
-//    │   │ &sk LCTRL │  &sk LA   │  &sk LG   │ &sk LSHIFT │  &sk RA   │           │  &kp LEFT  │ &kp DOWN  │  &kp UP   │   &kp RIGHT   │          │   │
+//    │   │ &sk LCTRL │ &sk LALT  │ &sk LGUI  │ &sk LSHIFT │ &sk RALT  │           │  &kp LEFT  │ &kp DOWN  │  &kp UP   │   &kp RIGHT   │          │   │
 //    ├───┼───────────┼───────────┼───────────┼────────────┼───────────┤           ├────────────┼───────────┼───────────┼───────────────┼──────────┼───┤
 //    │   │ &kp LG(Z) │ &kp LG(X) │ &kp LG(C) │ &kp LG(V)  │           │           │  &kp HOME  │ &kp PG_DN │ &kp PG_UP │    &kp END    │          │   │
 //    ╰───┴───────────┴───────────┴───────────┼────────────┼───────────┼───╮   ╭───┼────────────┼───────────┼───────────┴───────────────┴──────────┴───╯
 //                                            │            │           │ … │   │ … │ &kp ENTER  │  &kp SPC  │
 //                                            ╰────────────┴───────────┴───╯   ╰───┴────────────┴───────────╯
   &none   &kp TAB     &none       &none       &none        &kp PSCRN                         &kp K_BACK   &kp BSPC    &kp DEL     &kp K_FORWARD   &kp CAPS   &none
-  &none   &sk LCTRL   &sk LA      &sk LG      &sk LSHIFT   &sk RA                            &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT       &none      &none
+  &none   &sk LCTRL   &sk LALT    &sk LGUI    &sk LSHIFT   &sk RALT                          &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT       &none      &none
   &none   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &none                             &kp HOME     &kp PG_DN   &kp PG_UP   &kp END         &none      &none
                                               &none        &none       &trans       &trans   &kp ENTER    &kp SPC
                         >;
