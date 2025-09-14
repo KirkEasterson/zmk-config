@@ -49,25 +49,25 @@
                                               &none        &none       &trans       &trans   &kp ENTER    &kp SPC
                         >;
                 };
-/**/
-/*                 symbols { */
-/*                         display-name = "Symbols"; */
-/*                         bindings = < */
-/* //    ╭───┬────────────┬────────────┬────────────┬────────────┬────────────╮               ╭────────────┬────────────┬────────────┬────────────┬────────────┬───╮ */
-/* //    │   │ &kp LS(N1) │ &kp LS(N2) │ &kp LS(N3) │ &kp LS(N4) │ &kp LS(N5) │               │ &kp LS(N6) │ &kp LS(N7) │ &kp LS(N8) │ &kp LS(N9) │ &kp LS(N0) │   │ */
-/* //    ├───┼────────────┼────────────┼────────────┼────────────┼────────────┤               ├────────────┼────────────┼────────────┼────────────┼────────────┼───┤ */
-/* //    │   │   &kp LT   │  &kp LBKT  │  &kp LBRC  │   &LPAR    │            │               │ &kp MINUS  │  &kp BSLH  │ &kp EQUAL  │ &kp GRAVE  │ &kp COLON  │   │ */
-/* //    ├───┼────────────┼────────────┼────────────┼────────────┼────────────┤               ├────────────┼────────────┼────────────┼────────────┼────────────┼───┤ */
-/* //    │   │   &kp GT   │  &kp RBKT  │  &kp RBRC  │   &RPAR    │            │               │ &kp UNDER  │  &kp PIPE  │  &kp PLUS  │ &kp TILDE  │  &kp SEMI  │   │ */
-/* //    ╰───┴────────────┴────────────┴────────────┼────────────┼────────────┼───────╮   ╭───┼────────────┼────────────┼────────────┴────────────┴────────────┴───╯ */
-/* //                                               │            │            │ &mo 3 │   │ … │            │            │ */
-/* //                                               ╰────────────┴────────────┴───────╯   ╰───┴────────────┴────────────╯ */
-/*   &none   &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp LS(N4)   &kp LS(N5)                        &kp LS(N6)   &kp LS(N7)   &kp LS(N8)   &kp LS(N9)   &kp LS(N0)   &none */
-/*   &none   &kp LT       &kp LBKT     &kp LBRC     &LPAR        &none                             &kp MINUS    &kp BSLH     &kp EQUAL    &kp GRAVE    &kp COLON    &none */
-/*   &none   &kp GT       &kp RBKT     &kp RBRC     &RPAR        &none                             &kp UNDER    &kp PIPE     &kp PLUS     &kp TILDE    &kp SEMI     &none */
-/*                                                  &none        &none        &mo 3       &trans   &none        &none */
-/*                         >; */
-/*                 }; */
+
+                symbols {
+                        display-name = "Symbols";
+                        bindings = <
+//    ╭───┬────────────┬────────────┬────────────┬────────────┬────────────╮               ╭────────────┬────────────┬────────────┬────────────┬────────────┬───╮
+//    │   │ &kp LS(N1) │ &kp LS(N2) │ &kp LS(N3) │ &kp LS(N4) │ &kp LS(N5) │               │ &kp LS(N6) │ &kp LS(N7) │ &kp LS(N8) │ &kp LS(N9) │ &kp LS(N0) │   │
+//    ├───┼────────────┼────────────┼────────────┼────────────┼────────────┤               ├────────────┼────────────┼────────────┼────────────┼────────────┼───┤
+//    │   │   &kp LT   │  &kp LBKT  │  &kp LBRC  │   &LPAR    │            │               │ &kp MINUS  │  &kp BSLH  │ &kp EQUAL  │ &kp GRAVE  │ &kp COLON  │   │
+//    ├───┼────────────┼────────────┼────────────┼────────────┼────────────┤               ├────────────┼────────────┼────────────┼────────────┼────────────┼───┤
+//    │   │   &kp GT   │  &kp RBKT  │  &kp RBRC  │   &RPAR    │            │               │ &kp UNDER  │  &kp PIPE  │  &kp PLUS  │ &kp TILDE  │  &kp SEMI  │   │
+//    ╰───┴────────────┴────────────┴────────────┼────────────┼────────────┼───────╮   ╭───┼────────────┼────────────┼────────────┴────────────┴────────────┴───╯
+//                                               │            │            │ &mo 3 │   │ … │            │            │
+//                                               ╰────────────┴────────────┴───────╯   ╰───┴────────────┴────────────╯
+  &none   &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp LS(N4)   &kp LS(N5)                        &kp LS(N6)   &kp LS(N7)   &kp LS(N8)   &kp LS(N9)   &kp LS(N0)   &none
+  &none   &kp LT       &kp LBKT     &kp LBRC     &LPAR        &none                             &kp MINUS    &kp BSLH     &kp EQUAL    &kp GRAVE    &kp COLON    &none
+  &none   &kp GT       &kp RBKT     &kp RBRC     &RPAR        &none                             &kp UNDER    &kp PIPE     &kp PLUS     &kp TILDE    &kp SEMI     &none
+                                                 &none        &none        &mo 3       &trans   &none        &none
+                        >;
+                };
 /**/
 /*                 numbers { */
 /*                         display-name = "Numbers"; */
