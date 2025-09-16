@@ -69,14 +69,14 @@
 //    ┌───┬────────┬────────┬────────┬────────┬───┐           ┌──────────┬────────────┬──────────┬──────────┬───────────┬───┐
 //    │   │        │ &kp N7 │ &kp N8 │ &kp N9 │   │           │          │            │          │          │           │   │
 //    ├───┼────────┼────────┼────────┼────────┼───┤           ├──────────┼────────────┼──────────┼──────────┼───────────┼───┤
-//    │   │        │ &kp N4 │ &kp N5 │ &kp N6 │   │           │ &sk RALT │ &sk RSHIFT │ &sk RGUI │ &sk LALT │ &sk RCTRL │   │
+//    │   │        │ &kp N4 │ &kp N5 │ &kp N6 │   │           │ &kp RALT │ &kp RSHIFT │ &kp RGUI │ &kp LALT │ &kp RCTRL │   │
 //    ├───┼────────┼────────┼────────┼────────┼───┤           ├──────────┼────────────┼──────────┼──────────┼───────────┼───┤
 //    │   │ &kp N0 │ &kp N1 │ &kp N2 │ &kp N3 │   │           │    …     │     …      │    …     │    …     │     …     │   │
 //    └───┴────────┴────────┴────────┼────────┼───┼───┐   ┌───┼──────────┼────────────┼──────────┴──────────┴───────────┴───┘
 //                                   │        │   │ … │   │ … │          │            │
 //                                   └────────┴───┴───┘   └───┴──────────┴────────────┘
   &none   &none    &kp N7   &kp N8   &kp N9   &none                         &none      &none        &none      &none      &none       &none
-  &none   &none    &kp N4   &kp N5   &kp N6   &none                         &sk RALT   &sk RSHIFT   &sk RGUI   &sk LALT   &sk RCTRL   &none
+  &none   &none    &kp N4   &kp N5   &kp N6   &none                         &kp RALT   &kp RSHIFT   &kp RGUI   &kp LALT   &kp RCTRL   &none
   &none   &kp N0   &kp N1   &kp N2   &kp N3   &none                         &trans     &trans       &trans     &trans     &trans      &none
                                      &none    &none   &trans       &trans   &none      &none
                         >;
