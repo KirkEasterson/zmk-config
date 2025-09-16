@@ -85,18 +85,18 @@
                 function_media {
                         display-name = "Function and media keys";
                         bindings = <
-//    ┌───┬─────────┬────────┬────────┬────────┬───┐           ┌──────────┬──────────────┬────────────────┬──────────────┬───────────┬───┐
-//    │   │ &kp F12 │ &kp F7 │ &kp F8 │ &kp F9 │   │           │          │  &kp C_PREV  │   &kp C_PLAY   │  &kp C_NEXT  │           │   │
-//    ├───┼─────────┼────────┼────────┼────────┼───┤           ├──────────┼──────────────┼────────────────┼──────────────┼───────────┼───┤
-//    │   │ &kp F11 │ &kp F4 │ &kp F5 │ &kp F6 │   │           │ &kp RALT │  &kp RSHIFT  │    &kp RGUI    │   &kp LALT   │ &kp RCTRL │   │
-//    ├───┼─────────┼────────┼────────┼────────┼───┤           ├──────────┼──────────────┼────────────────┼──────────────┼───────────┼───┤
-//    │   │ &kp F10 │ &kp F1 │ &kp F2 │ &kp F3 │   │           │          │ &kp C_VOL_UP │ &kp C_VOL_MUTE │ &kp C_VOL_DN │           │   │
-//    └───┴─────────┴────────┴────────┼────────┼───┼───┐   ┌───┼──────────┼──────────────┼────────────────┴──────────────┴───────────┴───┘
+//    ┌───┬─────────┬────────┬────────┬────────┬───┐           ┌──────────┬──────────────┬────────────┬──────────────┬───────────┬───┐
+//    │   │ &kp F12 │ &kp F7 │ &kp F8 │ &kp F9 │   │           │          │  &kp C_PREV  │ &kp C_PLAY │  &kp C_NEXT  │           │   │
+//    ├───┼─────────┼────────┼────────┼────────┼───┤           ├──────────┼──────────────┼────────────┼──────────────┼───────────┼───┤
+//    │   │ &kp F11 │ &kp F4 │ &kp F5 │ &kp F6 │   │           │ &kp RALT │  &kp RSHIFT  │  &kp RGUI  │   &kp LALT   │ &kp RCTRL │   │
+//    ├───┼─────────┼────────┼────────┼────────┼───┤           ├──────────┼──────────────┼────────────┼──────────────┼───────────┼───┤
+//    │   │ &kp F10 │ &kp F1 │ &kp F2 │ &kp F3 │   │           │          │ &kp C_VOL_UP │ &kp C_MUTE │ &kp C_VOL_DN │           │   │
+//    └───┴─────────┴────────┴────────┼────────┼───┼───┐   ┌───┼──────────┼──────────────┼────────────┴──────────────┴───────────┴───┘
 //                                    │        │ … │   │   │   │    …     │              │
 //                                    └────────┴───┴───┘   └───┴──────────┴──────────────┘
-  &none   &kp F12   &kp F7   &kp F8   &kp F9   &none                        &none      &kp C_PREV     &kp C_PLAY       &kp C_NEXT     &none       &none
-  &none   &kp F11   &kp F4   &kp F5   &kp F6   &none                        &kp RALT   &kp RSHIFT     &kp RGUI         &kp LALT       &kp RCTRL   &none
-  &none   &kp F10   &kp F1   &kp F2   &kp F3   &none                        &none      &kp C_VOL_UP   &kp C_VOL_MUTE   &kp C_VOL_DN   &none       &none
+  &none   &kp F12   &kp F7   &kp F8   &kp F9   &none                        &none      &kp C_PREV     &kp C_PLAY   &kp C_NEXT     &none       &none
+  &none   &kp F11   &kp F4   &kp F5   &kp F6   &none                        &kp RALT   &kp RSHIFT     &kp RGUI     &kp LALT       &kp RCTRL   &none
+  &none   &kp F10   &kp F1   &kp F2   &kp F3   &none                        &none      &kp C_VOL_UP   &kp C_MUTE   &kp C_VOL_DN   &none       &none
                                       &none    &trans   &none       &none   &trans     &none
                         >;
                 };
