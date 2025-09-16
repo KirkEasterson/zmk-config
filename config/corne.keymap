@@ -49,19 +49,19 @@
                 symbols {
                         display-name = "Symbols";
                         bindings = <
-//    ┌───┬──────────────────┬───────────────────┬─────────────────┬───────────────────────┬────────────┐               ┌────────────┬───────────────┬────────────┬────────────┬────────────┬───┐
-//    │   │    &kp LS(N1)    │    &kp LS(N2)     │   &kp LS(N3)    │      &kp LS(N4)       │ &kp LS(N5) │               │ &kp LS(N6) │  &kp LS(N7)   │ &kp LS(N8) │ &kp LS(N9) │ &kp LS(N0) │   │
-//    ├───┼──────────────────┼───────────────────┼─────────────────┼───────────────────────┼────────────┤               ├────────────┼───────────────┼────────────┼────────────┼────────────┼───┤
-//    │   │  &kp LESS_THAN   │ &kp LEFT_BRACKET  │ &kp LEFT_BRACE  │ &kp LEFT_PARENTHESIS  │            │               │ &kp MINUS  │ &kp BACKSLASH │ &kp EQUAL  │ &kp GRAVE  │ &kp COLON  │   │
-//    ├───┼──────────────────┼───────────────────┼─────────────────┼───────────────────────┼────────────┤               ├────────────┼───────────────┼────────────┼────────────┼────────────┼───┤
-//    │   │ &kp GREATER_THAN │ &kp RIGHT_BRACKET │ &kp RIGHT_BRACE │ &kp RIGHT_PARENTHESIS │            │               │ &kp UNDER  │   &kp PIPE    │  &kp PLUS  │ &kp TILDE  │  &kp SEMI  │   │
-//    └───┴──────────────────┴───────────────────┴─────────────────┼───────────────────────┼────────────┼───────┐   ┌───┼────────────┼───────────────┼────────────┴────────────┴────────────┴───┘
-//                                                                 │                       │            │ &mo 3 │   │ … │            │               │
-//                                                                 └───────────────────────┴────────────┴───────┘   └───┴────────────┴───────────────┘
-  &none   &kp LS(N1)         &kp LS(N2)          &kp LS(N3)        &kp LS(N4)              &kp LS(N5)                        &kp LS(N6)   &kp LS(N7)      &kp LS(N8)   &kp LS(N9)   &kp LS(N0)   &none
-  &none   &kp LESS_THAN      &kp LEFT_BRACKET    &kp LEFT_BRACE    &kp LEFT_PARENTHESIS    &none                             &kp MINUS    &kp BACKSLASH   &kp EQUAL    &kp GRAVE    &kp COLON    &none
-  &none   &kp GREATER_THAN   &kp RIGHT_BRACKET   &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS   &none                             &kp UNDER    &kp PIPE        &kp PLUS     &kp TILDE    &kp SEMI     &none
-                                                                   &none                   &none        &mo 3       &trans   &none        &none
+//    ┌───┬──────────────────┬───────────────────┬─────────────────┬───────────────────────┬─────────────┐               ┌───────────┬───────────────┬──────────────┬───────────┬───────────┬───┐
+//    │   │ &kp EXCLAMATION  │      &kp AT       │    &kp HASH     │      &kp DOLLAR       │ &kp PERCENT │               │ &kp CARET │ &kp AMPERSAND │ &kp ASTERISK │           │           │   │
+//    ├───┼──────────────────┼───────────────────┼─────────────────┼───────────────────────┼─────────────┤               ├───────────┼───────────────┼──────────────┼───────────┼───────────┼───┤
+//    │   │  &kp LESS_THAN   │ &kp LEFT_BRACKET  │ &kp LEFT_BRACE  │ &kp LEFT_PARENTHESIS  │             │               │ &kp MINUS │   &kp PIPE    │  &kp EQUAL   │ &kp GRAVE │ &kp COLON │   │
+//    ├───┼──────────────────┼───────────────────┼─────────────────┼───────────────────────┼─────────────┤               ├───────────┼───────────────┼──────────────┼───────────┼───────────┼───┤
+//    │   │ &kp GREATER_THAN │ &kp RIGHT_BRACKET │ &kp RIGHT_BRACE │ &kp RIGHT_PARENTHESIS │             │               │ &kp UNDER │ &kp BACKSLASH │   &kp PLUS   │ &kp TILDE │ &kp SEMI  │   │
+//    └───┴──────────────────┴───────────────────┴─────────────────┼───────────────────────┼─────────────┼───────┐   ┌───┼───────────┼───────────────┼──────────────┴───────────┴───────────┴───┘
+//                                                                 │                       │             │ &mo 3 │   │ … │           │               │
+//                                                                 └───────────────────────┴─────────────┴───────┘   └───┴───────────┴───────────────┘
+  &none   &kp EXCLAMATION    &kp AT              &kp HASH          &kp DOLLAR              &kp PERCENT                        &kp CARET   &kp AMPERSAND   &kp ASTERISK   &none       &none       &none
+  &none   &kp LESS_THAN      &kp LEFT_BRACKET    &kp LEFT_BRACE    &kp LEFT_PARENTHESIS    &none                              &kp MINUS   &kp PIPE        &kp EQUAL      &kp GRAVE   &kp COLON   &none
+  &none   &kp GREATER_THAN   &kp RIGHT_BRACKET   &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS   &none                              &kp UNDER   &kp BACKSLASH   &kp PLUS       &kp TILDE   &kp SEMI    &none
+                                                                   &none                   &none         &mo 3       &trans   &none       &none
                         >;
                 };
 
