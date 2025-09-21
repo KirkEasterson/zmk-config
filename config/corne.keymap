@@ -123,7 +123,7 @@
                 };
 
                 colemake_dh {
-                        display-name = "Default Layer";
+                        display-name = "Colemake-DH Layer";
                         bindings = <
 //    ┌───┬───────┬───────┬───────┬─────────┬────────────┐                   ┌───────────┬─────────┬───────────┬─────────┬──────────┬───┐
 //    │   │ &kp Q │ &kp W │ &kp F │  &kp P  │   &kp B    │                   │   &kp J   │  &kp L  │   &kp U   │  &kp Y  │ &kp SQT  │   │
