@@ -50,7 +50,7 @@
                         display-name = "Navigation";
                         bindings = <
 //    ┌───┬───────────┬───────────┬───────────┬────────────┬─────────────────┐               ┌────────────┬───────────────┬────────────┬───────────────┬──────────────┬───┐
-//    │   │  &kp TAB  │   &to 0   │           │   &to 6    │ &kp PRINTSCREEN │               │ &kp K_BACK │ &kp BACKSPACE │ &kp DELETE │ &kp K_FORWARD │ &kp CAPSLOCK │   │
+//    │   │  &kp TAB  │   &to 0   │           │   &to 1    │ &kp PRINTSCREEN │               │ &kp K_BACK │ &kp BACKSPACE │ &kp DELETE │ &kp K_FORWARD │ &kp CAPSLOCK │   │
 //    ├───┼───────────┼───────────┼───────────┼────────────┼─────────────────┤               ├────────────┼───────────────┼────────────┼───────────────┼──────────────┼───┤
 //    │   │ &sk LCTRL │ &sk LALT  │ &sk LGUI  │ &sk LSHIFT │    &sk RALT     │               │  &kp LEFT  │   &kp DOWN    │   &kp UP   │   &kp RIGHT   │              │   │
 //    ├───┼───────────┼───────────┼───────────┼────────────┼─────────────────┤               ├────────────┼───────────────┼────────────┼───────────────┼──────────────┼───┤
@@ -58,7 +58,7 @@
 //    └───┴───────────┴───────────┴───────────┼────────────┼─────────────────┼───┐   ┌───────┼────────────┼───────────────┼────────────┴───────────────┴──────────────┴───┘
 //                                            │            │                 │ … │   │ &mo 4 │ &kp ENTER  │    &kp SPC    │
 //                                            └────────────┴─────────────────┴───┘   └───────┴────────────┴───────────────┘
-  &none   &kp TAB     &to 0       &none       &to 6        &kp PRINTSCREEN                        &kp K_BACK   &kp BACKSPACE   &kp DELETE   &kp K_FORWARD   &kp CAPSLOCK   &none
+  &none   &kp TAB     &to 0       &none       &to 1        &kp PRINTSCREEN                        &kp K_BACK   &kp BACKSPACE   &kp DELETE   &kp K_FORWARD   &kp CAPSLOCK   &none
   &none   &sk LCTRL   &sk LALT    &sk LGUI    &sk LSHIFT   &sk RALT                               &kp LEFT     &kp DOWN        &kp UP       &kp RIGHT       &none          &none
   &none   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &none                                  &kp HOME     &kp PG_DN       &kp PG_UP    &kp END         &none          &none
                                               &none        &none             &trans       &mo 4   &kp ENTER    &kp SPC
