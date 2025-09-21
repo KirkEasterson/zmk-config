@@ -18,12 +18,31 @@
 //    ├───┼───────┼───────┼───────┼─────────┼────────────┤                   ├───────────┼─────────┼───────────┼─────────┼──────────┼───┤
 //    │   │ &kp Z │ &kp X │ &kp C │  &kp V  │   &kp B    │                   │   &kp N   │  &kp M  │ &kp COMMA │ &kp DOT │ &kp FSLH │   │
 //    └───┴───────┴───────┴───────┼─────────┼────────────┼───────┐   ┌───────┼───────────┼─────────┼───────────┴─────────┴──────────┴───┘
-//                                │ &kp ESC │ &kp LSHIFT │ &mo 1 │   │ &mo 2 │ &kp RCTRL │ &kp SPC │
+//                                │ &kp ESC │ &kp LSHIFT │ &mo 2 │   │ &mo 3 │ &kp RCTRL │ &kp SPC │
 //                                └─────────┴────────────┴───────┘   └───────┴───────────┴─────────┘
   &none   &kp Q   &kp W   &kp E   &kp R     &kp T                            &kp Y       &kp U     &kp I       &kp O     &kp P      &none
   &none   &kp A   &kp S   &kp D   &kp F     &kp G                            &kp H       &kp J     &kp K       &kp L     &kp SQT    &none
   &none   &kp Z   &kp X   &kp C   &kp V     &kp B                            &kp N       &kp M     &kp COMMA   &kp DOT   &kp FSLH   &none
-                                  &kp ESC   &kp LSHIFT   &mo 1       &mo 2   &kp RCTRL   &kp SPC
+                                  &kp ESC   &kp LSHIFT   &mo 2       &mo 3   &kp RCTRL   &kp SPC
+                        >;
+                };
+
+                colemake_dh {
+                        display-name = "Colemake-DH Layer";
+                        bindings = <
+//    ┌───┬───────┬───────┬───────┬─────────┬────────────┐                   ┌───────────┬─────────┬───────────┬─────────┬──────────┬───┐
+//    │   │ &kp Q │ &kp W │ &kp F │  &kp P  │   &kp B    │                   │   &kp J   │  &kp L  │   &kp U   │  &kp Y  │ &kp SQT  │   │
+//    ├───┼───────┼───────┼───────┼─────────┼────────────┤                   ├───────────┼─────────┼───────────┼─────────┼──────────┼───┤
+//    │   │ &kp A │ &kp R │ &kp S │  &kp T  │   &kp G    │                   │   &kp M   │  &kp N  │   &kp E   │  &kp I  │  &kp O   │   │
+//    ├───┼───────┼───────┼───────┼─────────┼────────────┤                   ├───────────┼─────────┼───────────┼─────────┼──────────┼───┤
+//    │   │ &kp Z │ &kp X │ &kp C │  &kp D  │   &kp V    │                   │   &kp K   │  &kp H  │ &kp COMMA │ &kp DOT │ &kp FSLH │   │
+//    └───┴───────┴───────┴───────┼─────────┼────────────┼───────┐   ┌───────┼───────────┼─────────┼───────────┴─────────┴──────────┴───┘
+//                                │ &kp ESC │ &kp LSHIFT │ &mo 2 │   │ &mo 3 │ &kp RCTRL │ &kp SPC │
+//                                └─────────┴────────────┴───────┘   └───────┴───────────┴─────────┘
+  &none   &kp Q   &kp W   &kp F   &kp P     &kp B                            &kp J       &kp L     &kp U       &kp Y     &kp SQT    &none
+  &none   &kp A   &kp R   &kp S   &kp T     &kp G                            &kp M       &kp N     &kp E       &kp I     &kp O      &none
+  &none   &kp Z   &kp X   &kp C   &kp D     &kp V                            &kp K       &kp H     &kp COMMA   &kp DOT   &kp FSLH   &none
+                                  &kp ESC   &kp LSHIFT   &mo 2       &mo 3   &kp RCTRL   &kp SPC
                         >;
                 };
 
@@ -37,12 +56,12 @@
 //    ├───┼───────────┼───────────┼───────────┼────────────┼─────────────────┤               ├────────────┼───────────────┼────────────┼───────────────┼──────────────┼───┤
 //    │   │ &kp LG(Z) │ &kp LG(X) │ &kp LG(C) │ &kp LG(V)  │                 │               │  &kp HOME  │   &kp PG_DN   │ &kp PG_UP  │    &kp END    │              │   │
 //    └───┴───────────┴───────────┴───────────┼────────────┼─────────────────┼───┐   ┌───────┼────────────┼───────────────┼────────────┴───────────────┴──────────────┴───┘
-//                                            │            │                 │ … │   │ &mo 3 │ &kp ENTER  │    &kp SPC    │
+//                                            │            │                 │ … │   │ &mo 4 │ &kp ENTER  │    &kp SPC    │
 //                                            └────────────┴─────────────────┴───┘   └───────┴────────────┴───────────────┘
   &none   &kp TAB     &to 0       &none       &to 6        &kp PRINTSCREEN                        &kp K_BACK   &kp BACKSPACE   &kp DELETE   &kp K_FORWARD   &kp CAPSLOCK   &none
   &none   &sk LCTRL   &sk LALT    &sk LGUI    &sk LSHIFT   &sk RALT                               &kp LEFT     &kp DOWN        &kp UP       &kp RIGHT       &none          &none
   &none   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &none                                  &kp HOME     &kp PG_DN       &kp PG_UP    &kp END         &none          &none
-                                              &none        &none             &trans       &mo 3   &kp ENTER    &kp SPC
+                                              &none        &none             &trans       &mo 4   &kp ENTER    &kp SPC
                         >;
                 };
 
@@ -56,12 +75,12 @@
 //    ├───┼──────────────────┼───────────────────┼─────────────────┼───────────────────────┼─────────────┤               ├───────────┼───────────────┼──────────────┼───────────┼───────────┼───┤
 //    │   │ &kp GREATER_THAN │ &kp RIGHT_BRACKET │ &kp RIGHT_BRACE │ &kp RIGHT_PARENTHESIS │             │               │ &kp UNDER │ &kp BACKSLASH │   &kp PLUS   │ &kp TILDE │ &kp COLON │   │
 //    └───┴──────────────────┴───────────────────┴─────────────────┼───────────────────────┼─────────────┼───────┐   ┌───┼───────────┼───────────────┼──────────────┴───────────┴───────────┴───┘
-//                                                                 │                       │             │ &mo 3 │   │ … │           │               │
+//                                                                 │                       │             │ &mo 4 │   │ … │           │               │
 //                                                                 └───────────────────────┴─────────────┴───────┘   └───┴───────────┴───────────────┘
   &none   &kp EXCLAMATION    &kp AT              &kp HASH          &kp DOLLAR              &kp PERCENT                        &kp CARET   &kp AMPERSAND   &kp ASTERISK   &none       &none       &none
   &none   &kp LESS_THAN      &kp LEFT_BRACKET    &kp LEFT_BRACE    &kp LEFT_PARENTHESIS    &none                              &kp MINUS   &kp PIPE        &kp EQUAL      &kp GRAVE   &kp SEMI    &none
   &none   &kp GREATER_THAN   &kp RIGHT_BRACKET   &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS   &none                              &kp UNDER   &kp BACKSLASH   &kp PLUS       &kp TILDE   &kp COLON   &none
-                                                                   &none                   &none         &mo 3       &trans   &none       &none
+                                                                   &none                   &none         &mo 4       &trans   &none       &none
                         >;
                 };
 
@@ -122,38 +141,19 @@
                         >;
                 };
 
-                colemake_dh {
-                        display-name = "Colemake-DH Layer";
-                        bindings = <
-//    ┌───┬───────┬───────┬───────┬─────────┬────────────┐                   ┌───────────┬─────────┬───────────┬─────────┬──────────┬───┐
-//    │   │ &kp Q │ &kp W │ &kp F │  &kp P  │   &kp B    │                   │   &kp J   │  &kp L  │   &kp U   │  &kp Y  │ &kp SQT  │   │
-//    ├───┼───────┼───────┼───────┼─────────┼────────────┤                   ├───────────┼─────────┼───────────┼─────────┼──────────┼───┤
-//    │   │ &kp A │ &kp R │ &kp S │  &kp T  │   &kp G    │                   │   &kp M   │  &kp N  │   &kp E   │  &kp I  │  &kp O   │   │
-//    ├───┼───────┼───────┼───────┼─────────┼────────────┤                   ├───────────┼─────────┼───────────┼─────────┼──────────┼───┤
-//    │   │ &kp Z │ &kp X │ &kp C │  &kp D  │   &kp V    │                   │   &kp K   │  &kp H  │ &kp COMMA │ &kp DOT │ &kp FSLH │   │
-//    └───┴───────┴───────┴───────┼─────────┼────────────┼───────┐   ┌───────┼───────────┼─────────┼───────────┴─────────┴──────────┴───┘
-//                                │ &kp ESC │ &kp LSHIFT │ &mo 1 │   │ &mo 2 │ &kp RCTRL │ &kp SPC │
-//                                └─────────┴────────────┴───────┘   └───────┴───────────┴─────────┘
-  &none   &kp Q   &kp W   &kp F   &kp P     &kp B                            &kp J       &kp L     &kp U       &kp Y     &kp SQT    &none
-  &none   &kp A   &kp R   &kp S   &kp T     &kp G                            &kp M       &kp N     &kp E       &kp I     &kp O      &none
-  &none   &kp Z   &kp X   &kp C   &kp D     &kp V                            &kp K       &kp H     &kp COMMA   &kp DOT   &kp FSLH   &none
-                                  &kp ESC   &kp LSHIFT   &mo 1       &mo 2   &kp RCTRL   &kp SPC
-                        >;
-                };
-
         };
         combos {
                 compatible = "zmk,combos";
                 fn_media {
                         timeout-ms = <50>;
                         key-positions = <37 40>;
-                        bindings = <&mo 4>;
+                        bindings = <&mo 5>;
                         layers = <0>;
                 };
                 mouse {
                         timeout-ms = <50>;
                         key-positions = <36 41>;
-                        bindings = <&mo 5>;
+                        bindings = <&mo 6>;
                         layers = <0>;
                 };
         };
